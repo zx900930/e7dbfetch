@@ -8,7 +8,7 @@ print('Working directory: '+path)
 os.chdir(path)
 os.makedirs('../json/', exist_ok=True)
 
-langs=[{"url": "en","code": "en", "name": "English"}, {"url": "ja","code": "ja", "name": "Japanese"}, {"url": "ko","code": "ko", "name": "Korean"}, {"url": "fr","code": "fr", "name": "French"}, {"url": "cn","code": "cn", "name": "Chinese Simplified"}, {"url": "zht","code": "tw", "name": "Chinese Traditional"}]
+langs=[{"url": "en","code": "en", "name": "English"}, {"url": "de","code": "de", "name": "German"}, {"url": "pt","code": "pt", "name": "Portuguese"}, {"url": "es","code": "es", "name": "Spanish"}, {"url": "ja","code": "ja", "name": "Japanese"}, {"url": "ko","code": "ko", "name": "Korean"}, {"url": "fr","code": "fr", "name": "French"}, {"url": "cn","code": "cn", "name": "Chinese Simplified"}, {"url": "zht","code": "tw", "name": "Chinese Traditional"}]
 opener = urllib.request.build_opener()
 opener.addheaders = [('User-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36')]
 urllib.request.install_opener(opener)
